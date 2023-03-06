@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Princess of Arena Cam Ranh Home</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.timepicker.css" />
+
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          >The Princess of Arena Cam Ranh Home</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="rooms.html" class="nav-link">Booking</a>
+            </li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Admin</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+    <div class="hero">
+      <div class="container-wrap d-flex justify-content-end align-items-end">
+        <a
+          href="https://www.youtube.com/watch?v=fsKnC6eQGlQ"
+          class="icon-video popup-vimeo d-flex justify-content-center align-items-center"
+        >
+          <span class="ion-ios-play play"></span>
+        </a>
+      </div>
+
+      <section
+        class="home-slider owl-carousel"
+        id="backgroud_home_silder"
+      ></section>
+    </div>
+
+    <section class="ftco-booking ftco-section ftco-no-pt ftco-no-pb">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 pr-1 aside-stretch">
+            <form action="#" class="booking-form">
+              <div class="row">
+                <div class="col-md d-flex py-md-4">
+                  <div
+                    class="form-group align-self-stretch d-flex align-items-end"
+                  >
+                    <div class="wrap bg-white align-self-stretch py-3 px-4">
+                      <label for="#">Check-in Date</label>
+                      <input
+                        type="text"
+                        id="inputCheckin"
+                        class="form-control checkin_date"
+                        placeholder="Check-in date"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md d-flex py-md-4">
+                  <div
+                    class="form-group align-self-stretch d-flex align-items-end"
+                  >
+                    <div class="wrap bg-white align-self-stretch py-3 px-4">
+                      <label for="#">Check-out Date</label>
+                      <input
+                        type="text"
+                        class="form-control checkout_date"
+                        id="inputCheckout"
+                        placeholder="Check-out date"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md d-flex py-md-4">
+                  <div
+                    class="form-group align-self-stretch d-flex align-items-end"
+                  >
+                    <div class="wrap bg-white align-self-stretch py-3 px-4">
+                      <label for="#">Room</label>
+                      <div class="form-field">
+                        <div class="select-wrap">
+                          <div class="icon">
+                            <span class="ion-ios-arrow-down"></span>
+                          </div>
+                          <select name="" id="room_type" class="form-control">
+                            <option value="Suite">Suite</option>
+                            <option value="Family Room">Family Room</option>
+                            <option value="Deluxe Room">Deluxe Room</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md d-flex py-md-4">
+                  <div
+                    class="form-group align-self-stretch d-flex align-items-end"
+                  >
+                    <div class="wrap bg-white align-self-stretch py-3 px-4">
+                      <label for="#">Guests</label>
+                      <div class="form-field">
+                        <div class="select-wrap">
+                          <div class="icon">
+                            <span class="ion-ios-arrow-down"></span>
+                          </div>
+                          <select name="" id="" class="form-control">
+                            <option value="">1 Adult</option>
+                            <option value="">2 Adult</option>
+                            <option value="">3 Adult</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md d-flex">
+                  <div class="form-group d-flex align-self-stretch">
+                    <a
+                      id="submitCheck"
+                      class="btn btn-black py-5 py-md-3 px-4 align-self-stretch d-block"
+                      ><span
+                        >Check Availability
+                        <small>Best Price Guaranteed!</small></span
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-wrap">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-3" id="special_room">
+            <a href="#" class="services-wrap img align-items-end d-flex">
+              <div class="text text-center pb-2">
+                <h3>Special Rooms</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3" id="swimming_pool">
+            <a href="#" class="services-wrap img align-items-end d-flex">
+              <div class="text text-center pb-2">
+                <h3>Swimming Pool</h3>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3" id="event">
+            <a href="#" class="services-wrap img align-items-end d-flex">
+              <div class="text text-center pb-2">
+                <h3>Event</h3>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3" id="meditation">
+            <div
+              class="services-wrap services-overlay img align-items-center d-flex"
+            >
+              <div class="text text-center pb-2">
+                <h3 class="mb-0">Meditation</h3>
+                <span>Relax day</span>
+                <div class="d-flex mt-2 justify-content-center">
+                  <div class="icon">
+                    <a href="#"><span class="ion-ios-arrow-forward"></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading"
+              >Welcome to The Princess of Arena Cam Ranh Home</span
+            >
+            <h2 class="mb-4">A New Vision of House</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md px-md-1 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services active py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="flaticon-serving-dish"></span>
+                </div>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Friendly Service</h3>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md px-md-1 d-flex align-sel Searchf-stretch ftco-animate"
+          >
+            <div class="media block-6 services py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="flaticon-car"></span>
+                </div>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Free parking</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md px-md-1 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="flaticon-spa"></span>
+                </div>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Outdoor &amp; View</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md pl-md-1 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services py-4 d-block text-center">
+              <div class="d-flex justify-content-center">
+                <div
+                  class="icon d-flex align-items-center justify-content-center"
+                >
+                  <span class="ion-ios-bed"></span>
+                </div>
+              </div>
+              <div class="media-body">
+                <h3 class="heading mb-3">Cozy Rooms</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section bg-light ftco-room">
+      <div class="container-fluid px-0">
+        <div class="row no-gutters justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">The Princess of Arena Cam Ranh Rooms</span>
+            <h2 class="mb-4">One-Bedroom Apartment</h2>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <div class="room-wrap">
+              <div
+                class="img d-flex align-items-center"
+                style="background-image: url(images/bg_3.jpg)"
+              >
+                <div class="text text-center px-4 py-4">
+                  <h2>
+                    Welcome to
+                    <a href="index.html">The Princess of Arena Cam Ranh</a> Home
+                  </h2>
+                  <p>
+                    nearly two Bai Dai Beach and My Ca Beach to become nature
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="room-wrap d-md-flex" id="room_image">
+              <a class="img"></a>
+              <div class="half left-arrow d-flex align-items-center">
+                <div class="text p-4 p-xl-5 text-center">
+                  <p class="star mb-0">
+                    <span class="ion-ios-star"></span
+                    ><span class="ion-ios-star"></span
+                    ><span class="ion-ios-star"></span
+                    ><span class="ion-ios-star"></span
+                    ><span class="ion-ios-star"></span>
+                  </p>
+                  <p class="mb-0" id="price"></p>
+                  <h3 class="mb-3"><a href="rooms.html" id="room_name"></a></h3>
+                  <p class="pt-1">
+                    <a href="rooms-single.html" class="btn-custom px-3 py-2"
+                      >View Room Details
+                      <span class="icon-long-arrow-right"></span
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">The Princess of Arena Cam Ranh Home</h2>
+              <p>
+                Located in Miếu Ông in the Khanh Hoa region, The Princess of Arena Cam Ranh Home has a balcony.
+              </p>
+              <ul
+                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
+              >
+                <li class="ftco-animate">
+                  <a href="#"><span class="icon-twitter"></span></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="#"><span class="icon-facebook"></span></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="#"><span class="icon-instagram"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li>
+                    <span class="icon icon-map-marker"></span
+                    ><span class="text"
+                      >26H7+WRQ, Nguyễn Tất Thành, Cam Hải Đông, Tp. Cam Ranh</span
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="icon icon-phone"></span
+                      ><span class="text">+0903358623</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><span class="icon icon-envelope"></span
+                      ><span class="text">cskh@thearena.vn</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+
+    <div id="modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span id="error_model_close" class="close">&times;</span>
+        <div class="ftco-heading-2" id="name_room"></div>
+        <br />
+        <p style="font-weight: 700; color: black" id="date"></p>
+        <br />
+        <p style="font-weight: 400; color: blac" id="message"></p>
+        <p style="font-weight: 400; color: red" id="real_price"></p>
+
+        <div class="btn-group" style="width: 100%">
+          <a id="view_detail"href="/rooms-single.html" class="button_modal" style="width: 50%">View detail</a>
+          <br />
+          <div id="booking" class="button_modal" style="width: 50%">
+            <p>Booking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="detail" class="modal">
+      <div class="modal-content">
+        <div class="row block-9">
+          <span id="detail_model_close" class="close">&times;</span>
+          <form action="#" class="bg-white p-5 contact-form">
+
+            <div class="form-group">
+              <label for="#">Enter email: </label>
+              <input
+                type="text"
+                id="inputEmail"
+                class="form-control"
+                placeholder="Type your email: "
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="#">Enter Name: </label>
+              <input
+                type="text"
+                id="inputName"
+                class="form-control"
+                placeholder="Type your name: "
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="#">Enter Phone Number: </label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputPhone"
+                placeholder="Type your Phone Number"
+              />
+            </div>
+
+            <div class="form-group" id="submit_booking">
+              <input
+                type="submit"
+                value="Get Room"
+                class="btn btn-primary py-3 px-5"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" integrity="sha512-6UofPqm0QupIL0kzS/UIzekR73/luZdC6i/kXDbWnLOJoqwklBK6519iUnShaYceJ0y4FaiPtX/hRnV/X/xlUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <!-- // <script src="js/jquery.timepicker.min.js"></script> -->
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/dash.js"></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyD2jhtlLIyyjU1FRU1es2VE8YIBzTgoCfg",
+        authDomain: "hotelcamranh-34ab6.firebaseapp.com",
+        projectId: "hotelcamranh-34ab6",
+        storageBucket: "hotelcamranh-34ab6.appspot.com",
+        messagingSenderId: "148061455025",
+        appId: "1:148061455025:web:01c125b66099ef9d909890",
+        measurementId: "G-00EHGD1SN5"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+
+  </body>
+</html>
